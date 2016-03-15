@@ -462,9 +462,9 @@ nav a#pull {
 }
 .divice-demo{
 	position: absolute;
-	bottom: 88px;
+	bottom: 104px;
 	z-index: 999;
-	right: -5%;
+	right: -4%;
 }
 .header-section{
 	position:relative;
