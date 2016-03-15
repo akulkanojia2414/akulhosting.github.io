@@ -462,9 +462,9 @@ nav a#pull {
 }
 .divice-demo{
 	position: absolute;
-	bottom: 0px;
+	bottom: 88px;
 	z-index: 999;
-	right: 10%;
+	right: -5%;
 }
 .header-section{
 	position:relative;
@@ -855,13 +855,15 @@ p.copy a:hover{
 /*--responsive design--*/
 @media (max-width:1280px){
 	.divice-demo img{
-		width:80%;
+		height: "120%";
+		width: "120%"
 	}
 	.slide-text-info {
 		margin: 0% 0;
 		left: 8%;
 	}
 	.divice-demo{
+		margin-left: 1000px;
 		right:0;
 	}
 	.big-divice img{
