@@ -50,6 +50,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	    		});
 			});
 		</script>
+		<script type="text/javascript">
+$(document).ready(function(){
+  $('#navigation a, #fixedbar a').on('click', function(e) {
+    e.preventDefault();
+  });
+  
+  $(window).on('scroll',function() {
+    var scrolltop = $(this).scrollTop();
+
+    if(scrolltop >= 215) {
+      $('#fixedbar').fadeIn(250);
+    }
+    
+    else if(scrolltop <= 210) {
+      $('#fixedbar').fadeOut(250);
+    }
+  });
+});
+</script>
 		<!----//End-top-nav-script---->
 </head>
 	<body>
@@ -153,8 +172,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			    </div>
 			    <div class="clearfix"> </div>
 			    
-			    	<div class="divice-demo">
-			    		<img src="images/divice-in-hand.png" title="demo" />
+			    	<div class="divice-demo" >
+			    		<img src="images/divice-in-hand.png" height="75%" width="75%" title="demo" />
 			    	</div>
 			    <!---//divice----->
 			<!----- //End-slider---->
